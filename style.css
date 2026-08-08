@@ -407,6 +407,7 @@
       #gallery   { padding: 80px 0; }
       #venue, #reception { padding: 80px 0; }
       #countdown { padding: 64px 0; }
+      .hero-scroll-hint{bottom: 54px;}
     }
 
     /* ── Tablets (max 991px) ── */
@@ -426,6 +427,8 @@
 
       /* Event cards padding */
       .event-card { padding: 38px 24px; }
+
+      .hero-scroll-hint{bottom: 49px;}
     }
 
     /* ── Mobile landscape / large phones (max 767px) ── */
@@ -436,7 +439,7 @@
       .hero-content { padding: 0 16px; }
       .hero-tag     { letter-spacing: 3px; margin-bottom: 14px; }
       .hero-divider { gap: 10px; margin: 18px auto; }
-      .hero--hint { bottom: 44px; }
+      .hero-scroll-hint { bottom: 49px; }
 
       /* Sections */
       #countdown { padding: 56px 0; }
