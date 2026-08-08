@@ -123,11 +123,11 @@
       /* color: var(--gold-light); */
       color: #FFFFFF;
       opacity: 0;
-      margin-top: -25px;
+      margin-top: -18px;
       animation: fadeUp .8s 1.3s forwards;
     }
     .hero-scroll-hint {
-      position: absolute; bottom: 6px; left: 50%;
+      position: absolute; bottom: 32px; left: 50%;
       transform: translateX(-50%);
       display: flex; flex-direction: column; align-items: center; gap: 6px;
       color: rgba(255,255,255,.55);
@@ -429,7 +429,7 @@
       .event-note{text-align: center;}
       .event-card { padding: 38px 24px;left: 50%; }
 
-      .hero-scroll-hint{bottom: 207px;}
+      .hero-scroll-hint{bottom: 7px;}
     }
 
     /* ── Mobile landscape / large phones (max 767px) ── */
@@ -440,7 +440,7 @@
       .hero-content { padding: 0 16px; }
       .hero-tag     { letter-spacing: 3px; margin-bottom: 14px; }
       .hero-divider { gap: 10px; margin: 18px auto; }
-      .hero-scroll-hint { bottom: 92px; }
+      .hero-scroll-hint { bottom: 89px; }
 
       /* Sections */
       #countdown { padding: 56px 0; }
@@ -478,6 +478,7 @@
       /* Hero */
       #hero       { min-height: 500px; }
       .hero-frame { inset: 8px; }
+      .hero-scroll-hint { bottom: 20px; }
 
       /* Couple: make photos a bit smaller so they fit side by side or centred */
       .couple-photo { width: 205px; height: 270px; }
@@ -529,7 +530,15 @@
       .gallery-tall { height: 210px; }
       .gallery-short { height: 120px; }
       .venue-map-wrap iframe { height: 210px; }
+      
     }
+
+   
+    /* @media screen and (min-width: 412px) {
+      .hero-scroll-hint {
+       bottom: 27px;
+      }
+    } */
 
     /* Countdown seconds pulse */
     @keyframes pulse { 0%,100%{transform:scale(1)} 50%{transform:scale(1.1)} }
