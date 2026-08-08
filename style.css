@@ -436,7 +436,7 @@
       .hero-content { padding: 0 16px; }
       .hero-tag     { letter-spacing: 3px; margin-bottom: 14px; }
       .hero-divider { gap: 10px; margin: 18px auto; }
-      .hero--hint { bottom: 24px; }
+      .hero--hint { bottom: 44px; }
 
       /* Sections */
       #countdown { padding: 56px 0; }
