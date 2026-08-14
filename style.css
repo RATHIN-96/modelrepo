@@ -74,7 +74,7 @@
     .hero-frame::before { top: -1px; left: -1px; border-width: 2px 0 0 2px; }
     .hero-frame::after  { bottom: -1px; right: -1px; border-width: 0 2px 2px 0; }
 
-    .hero-content { position: relative; z-index: 5; padding: 0 20px;margin-bottom: -344px; }
+    .hero-content { position: relative; z-index: 5; padding: 0 20px;margin-bottom: -460px; }
 
     .hero-tag {
       font-family: var(--font-sans);
@@ -407,6 +407,7 @@
       #gallery   { padding: 80px 0; }
       #venue, #reception { padding: 80px 0; }
       #countdown { padding: 64px 0; }
+      .hero-content { margin-bottom: -670px; }
       
     }
 
@@ -430,6 +431,7 @@
       .event-card { padding: 38px 24px;left: 50%; }
 
       .hero-scroll-hint{bottom: 7px;}
+      .hero-content { margin-bottom: -560px; }
     }
 
     /* ── Mobile landscape / large phones (max 767px) ── */
@@ -437,10 +439,11 @@
       /* Hero */
       #hero         { min-height: 560px; }
       .hero-frame   { inset: 10px; }
-      .hero-content { padding: 0 16px; }
+      .hero-content { padding: 0 16px;margin-bottom: -430px; }
       .hero-tag     { letter-spacing: 3px; margin-bottom: 14px; }
       .hero-divider { gap: 10px; margin: 18px auto; }
-      .hero-scroll-hint { bottom: 89px; }
+      .hero-scroll-hint { bottom: 39px; }
+      
 
       /* Sections */
       #countdown { padding: 56px 0; }
@@ -479,6 +482,7 @@
       #hero       { min-height: 500px; }
       .hero-frame { inset: 8px; }
       .hero-scroll-hint { bottom: 20px; }
+      .hero-content { margin-bottom: -400px; }
 
       /* Couple: make photos a bit smaller so they fit side by side or centred */
       .couple-photo { width: 205px; height: 270px; }
