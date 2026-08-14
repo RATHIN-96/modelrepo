@@ -439,10 +439,10 @@
       /* Hero */
       #hero         { min-height: 560px; }
       .hero-frame   { inset: 10px; }
-      .hero-content { padding: 0 16px;margin-bottom: -430px; }
+      .hero-content { padding: 0 16px;margin-bottom: -450px; }
       .hero-tag     { letter-spacing: 3px; margin-bottom: 14px; }
       .hero-divider { gap: 10px; margin: 18px auto; }
-      .hero-scroll-hint { bottom: 39px; }
+      .hero-scroll-hint { bottom: 32px; }
       
 
       /* Sections */
